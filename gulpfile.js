@@ -23,4 +23,4 @@ gulp.task('watch', function () {
   gulp.watch('./src/js/*.js', gulp.parallel('scripts'));
 });
 
-gulp.task('build', gulp.parallel('style','scripts', 'fonts','image'));
+gulp.task('build', gulp.parallel('style','scripts'));
